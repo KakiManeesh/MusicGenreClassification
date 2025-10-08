@@ -1,0 +1,17 @@
+# Create the .gitignore file with common Python/ML rules
+Set-Content .gitignore -Value @"
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables - DO NOT COMMIT SECRETS
+.env
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+"@
+models/X.npy
+models/y.npy
+models/cnn_model.h5
